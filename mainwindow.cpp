@@ -364,7 +364,7 @@ void MainWindow::updateDuration(qint64 duration)
 void MainWindow::updateVolume(int volume)
 {
     audioOutput->setVolume(volume / 100.0);
-    ui->volumeLabel->setText(QString("Громкость: %1%").arg(volume));
+    ui->volumeLabel->setText(QString("Гучність: %1%").arg(volume));
 }
 
 void MainWindow::updatePlaybackState(QMediaPlayer::PlaybackState state)
